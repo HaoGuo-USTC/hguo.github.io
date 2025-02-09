@@ -1,3 +1,10 @@
+<script>
+  var password = prompt("Enter the password:");
+  if (password !== "mySecret123") {
+      document.body.innerHTML = "<h1>Access Denied</h1>";
+  }
+</script>
+
 # Hao Guo  
 ## Seismologist 
 
